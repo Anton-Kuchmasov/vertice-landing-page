@@ -1,7 +1,6 @@
 @use "/src/utils/styles/mixins.scss" as mixins;
 
 .hero {
-    height: 200vh;
   margin-top: 160px;
   padding-inline: 100px;
   display: flex;
@@ -13,8 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100%;
-
     gap: 20px;
   }
 

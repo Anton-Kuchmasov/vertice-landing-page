@@ -1,4 +1,5 @@
 import "./App.scss";
+import Benefits from "./components/Benefits/Benefits";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 
@@ -13,6 +14,7 @@ function App() {
         <div className="hero-wrapper">
           <Hero />
         </div>
+        <Benefits />
       </main>
     </div>
   );
