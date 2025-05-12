@@ -1,0 +1,16 @@
+@mixin primary-button-gold {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 60px;
+  border: 1px solid #ba8750;
+  border-radius: 65px;
+  padding-inline: 32px;
+
+  background: linear-gradient(to right, #c99056, #af7f45, #6d451c);
+  color: var(--main-button-font-color);
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
