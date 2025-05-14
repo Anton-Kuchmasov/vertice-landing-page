@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header">
       <div className="header__logo">
         <div className="header__logo--blur" />
-        <img src="/vertice-logo.png" alt="Vertice Logo" />
+        <img src="/public/images/vertice-logo.png" alt="Vertice Logo" />
       </div>
       <div className="header__nav">
         <ul className="nav">
@@ -34,8 +34,12 @@ const Header = () => {
         </ul>
       </div>
       <div className="header__icons">
-        <YouTubeIcon />
-        <TelegramIcon />
+        <a href="#" className="header__social-link">
+          <YouTubeIcon />
+        </a>
+        <a href="#" className="header__social-link">
+          <TelegramIcon />
+        </a>
       </div>
     </div>
   );

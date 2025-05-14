@@ -4,7 +4,7 @@ import "./Hero.scss";
 const handleScrollDown = (e: React.MouseEvent) => {
   e.preventDefault();
   window.scrollBy({
-    top: window.innerHeight,
+    top: window.innerHeight - 106,
     left: 0,
     behavior: "smooth",
   });

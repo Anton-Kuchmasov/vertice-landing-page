@@ -3,6 +3,18 @@
   --main-button-font-color: #171717;
   --main-gray-color: #b8b8b8;
   --main-font-color: #fff;
+  --main-gold-background: #c48d53;
+
+  --main-gradient-start: #c99056;
+  --main-gradient-mid: #af7f45;
+  --main-gradient-end: #6d451c;
+
+  --button-gradient-border: linear-gradient(
+    to right,
+    var(--main-gradient-start),
+    var(--main-gradient-mid),
+    var(--main-gradient-end)
+  );
 
   font-family: Montserrat, sans-serif;
   line-height: 1.5;

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 2;
-    padding-inline: 140px;
+  padding-inline: 140px;
   &__logo {
     position: relative;
     display: flex;
@@ -26,6 +26,10 @@
 
   &__nav {
     z-index: 1;
+  }
+
+  &__social-link {
+    display: flex;
   }
 
   &__icons {

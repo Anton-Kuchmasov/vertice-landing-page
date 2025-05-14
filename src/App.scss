@@ -19,6 +19,16 @@
     opacity: 0.16;
     z-index: 0;
   }
+
+  &::after {
+    content: '';
+    position: fixed;
+    height: 94px;
+    pointer-events: none;
+    inset: auto 0 0;
+    background: linear-gradient(to top,#1E1E1E,rgba(30,30,30,0));
+    z-index: 999;
+  }
 }
 
 .header {
@@ -35,7 +45,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 999;
   overflow: visible;
   background: linear-gradient(
     180deg,
@@ -46,7 +56,7 @@
 }
 
 .hero-wrapper {
-  height: calc(100vh - 30px);
+  height: calc(100vh - 124px);
 
   overflow: visible;
   display: flex;

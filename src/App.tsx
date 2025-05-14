@@ -2,6 +2,7 @@ import "./App.scss";
 import Benefits from "./components/Benefits/Benefits";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Hero />
         </div>
         <Benefits />
+        <Services />
       </main>
     </div>
   );
