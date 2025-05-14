@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header">
       <div className="header__logo">
         <div className="header__logo--blur" />
-        <img src="/public/images/vertice-logo.png" alt="Vertice Logo" />
+        <img src="./images/vertice-logo.png" alt="Vertice Logo" />
       </div>
       <div className="header__nav">
         <ul className="nav">
