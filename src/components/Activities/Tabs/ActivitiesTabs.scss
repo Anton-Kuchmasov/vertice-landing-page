@@ -1,0 +1,54 @@
+.activities-tabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.tabs-list {
+  display: flex;
+  gap: 2px;
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 6px 12px;
+  border-radius: 9999px;
+}
+
+.tab-trigger {
+  width: 100%;
+  padding-block: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+  &[data-state="active"],
+  &[data-state="active"]:hover {
+    background-color: var(--main-gold-background);
+    color: #000;
+  }
+}
+
+.tab-content-wrapper {
+  margin-top: 60px;
+  width: 100%;
+  display: none;
+
+  &[data-state="active"] {
+    display: block;
+    animation: fadeInUp 0.5s ease;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

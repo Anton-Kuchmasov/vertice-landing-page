@@ -1,6 +1,7 @@
 :root {
   --main-black-color: #181818;
   --main-button-font-color: #171717;
+  --main-dark-gray-background: #1e1e1e;
   --main-gray-color: #b8b8b8;
   --main-font-color: #fff;
   --main-gold-background: #c48d53;
@@ -34,7 +35,8 @@ html * {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 700;
 }
 

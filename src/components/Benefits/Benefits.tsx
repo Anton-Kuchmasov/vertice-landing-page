@@ -3,7 +3,7 @@ import "./Benefits.scss";
 
 const Benefits = () => {
   return (
-    <div className="benefits benefits__wrapper">
+    <section className="benefits benefits__wrapper">
       <div className="benefits__blur benefits__blur--top" />
       <div className="benefits__blur benefits__blur--bottom" />
       <div className="benefits__content">
@@ -41,7 +41,7 @@ const Benefits = () => {
           <SmallStar />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

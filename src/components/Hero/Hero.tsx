@@ -12,7 +12,7 @@ const handleScrollDown = (e: React.MouseEvent) => {
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className=" hero__wrapper">
         {" "}
         <h1 className="hero__header">
@@ -35,7 +35,7 @@ const Hero = () => {
         <span className="hero__scroll-down--text">Scroll Down</span>
         <ScrollDownIcon />
       </button>
-    </div>
+    </section>
   );
 };
 

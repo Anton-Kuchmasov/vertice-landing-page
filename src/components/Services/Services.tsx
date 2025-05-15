@@ -8,7 +8,7 @@ import ServicesCard from "./ServicesCard";
 
 const Services = () => {
   return (
-    <div className="services services__wrapper">
+    <section className="services services__wrapper">
       <div className="services__top">
         <h2 className="services__header">Servicios</h2>
         <p className="services__text">Todo lo que hace única tu experiencia</p>
@@ -59,7 +59,7 @@ No entregamos alertas al azar. Cada señal está basada en estructura de mercado
       <a href="#" className="services-card__button">
         Formule una pregunta
       </a>
-    </div>
+    </section>
   );
 };
 

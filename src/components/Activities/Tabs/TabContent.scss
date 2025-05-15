@@ -1,0 +1,94 @@
+@use "/src/utils/styles/mixins.scss" as mixins;
+
+.tab-content {
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  &__right {
+    margin-left: 76px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__media {
+    background-color: #2a2a2a;
+    height: 360px;
+    width: 360px;
+    border-radius: 15px;
+  }
+
+  &__title {
+    line-height: 130%;
+
+    &--accent {
+      color: var(--main-gold-background);
+    }
+  }
+
+  &__list {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+  }
+
+  &__link {
+    margin-left: 30px;
+    @include mixins.only-gradient-border-button;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 66px;
+    border-radius: 66px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    transition: all 0.3s ease;
+
+    &:hover {
+      @include mixins.primary-button-gold;
+      padding-inline: 66px;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  &__header {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #b8b8b8;
+  }
+}
