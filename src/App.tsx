@@ -3,6 +3,7 @@ import Activities from "./components/Activities/Activities";
 import Benefits from "./components/Benefits/Benefits";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import PromoMarquee from "./components/Marquee/PromoMarquee";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 
@@ -21,6 +22,7 @@ function App() {
         <Services />
         <Activities />
         <Reviews />
+        <PromoMarquee />
       </main>
     </div>
   );

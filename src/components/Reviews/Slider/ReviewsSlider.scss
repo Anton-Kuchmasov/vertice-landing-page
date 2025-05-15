@@ -1,10 +1,14 @@
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+  overflow: visible;
+}
+
 .reviews-slider {
   position: relative;
   width: 100%;
-  margin-right: -140px;
-  margin-bottom: 80px;
+  margin-inline: -140px;
 
   &__controls {
+    width: 100%;
     margin-top: 40px;
     display: flex;
     justify-content: center;

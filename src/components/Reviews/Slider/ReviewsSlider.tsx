@@ -44,7 +44,9 @@ import "./ReviewsSlider.scss";
 
 const ReviewsSlider = () => {
   return (
-    <div className="reviews-slider">
+    <div
+      className="reviews-slider"
+    >
       <Swiper
         modules={[Navigation, Pagination]}
         slidesPerView={2.2}
@@ -55,7 +57,6 @@ const ReviewsSlider = () => {
         }}
         pagination={{ type: "fraction", el: ".reviews-slider__pagination" }}
         loop={false}
-        style={{ marginRight: -60 }}
       >
         {reviewsContent.map((item, index) => (
           <SwiperSlide key={index}>
