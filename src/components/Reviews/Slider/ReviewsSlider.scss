@@ -1,3 +1,40 @@
 .reviews-slider {
-    width: 100%;
+  position: relative;
+  width: 100%;
+  margin-right: -140px;
+  margin-bottom: 80px;
+
+  &__controls {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__prev,
+  &__next {
+    cursor: pointer;
+
+    &:hover,
+    &:active {
+      svg path {
+        fill: #c48d53;
+      }
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    max-width: fit-content;
+    padding-inline: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #b8b8b8;
+  }
+}
+
+.swiper {
+  overflow-y: visible;
+  position: relative;
 }

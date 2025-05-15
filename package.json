@@ -17,12 +17,12 @@
     "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "swiper": "^11.2.6"
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
     "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
