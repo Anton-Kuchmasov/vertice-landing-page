@@ -11,7 +11,7 @@ const Services = () => {
     <section className="services services__wrapper">
       <div className="services__top">
         <h2 className="services__header">Servicios</h2>
-        <p className="services__text">Todo lo que hace única tu experiencia</p>
+        <p className="services__text inter">Todo lo que hace única tu experiencia</p>
       </div>
       <div className="services__grid">
         <div className="card card--1">

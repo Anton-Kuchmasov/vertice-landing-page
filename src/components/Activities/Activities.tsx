@@ -5,7 +5,7 @@ const Activities = () => {
   return (
     <section className="activities activities__wrapper">
       <h2 className="activities__header">Tu camino, tus reglas</h2>
-      <p className="activities__subtitle">
+      <p className="activities__subtitle inter">
         Aprende y opera con las herramientas que mejor se adaptan a ti
       </p>
       <ActivitiesTabs />

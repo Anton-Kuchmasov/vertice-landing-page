@@ -13,7 +13,6 @@ const PromoMarquee = () => {
         color: "#171717",
         display: "flex",
         alignItems: "center",
-        gap: 40,
         fontSize: 14,
         fontWeight: 500,
       }}
@@ -25,8 +24,8 @@ const PromoMarquee = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          gap: 8,
-          marginRight: 20,
+          gap: 10,
+          marginRight: 20
         }}
       >
         <div
@@ -34,7 +33,6 @@ const PromoMarquee = () => {
             height: 8,
             width: 8,
             backgroundColor: "#181818",
-            marginRight: 10,
           }}
         />
         Trading
@@ -42,12 +40,2001 @@ const PromoMarquee = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "center",
           alignItems: "center",
-          gap: 8,
-          marginRight: 20,
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
         }}
-      ></div>
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        Trading
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 10,
+          marginRight: 20
+        }}
+      >
+        <div
+          style={{
+            height: 8,
+            width: 8,
+            backgroundColor: "#181818",
+          }}
+        />
+        SEO-ключи
+      </div>
     </Marquee>
   );
 };

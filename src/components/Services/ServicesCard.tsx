@@ -22,7 +22,7 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
       </div>
       <div className="services-card__info">
         <h3 className="services-card__info--header">{header}</h3>
-        <p className="services-card__info--text">{text}</p>
+        <p className="services-card__info--text inter">{text}</p>
       </div>
       <div className="services-card__blur"></div>
     </article>

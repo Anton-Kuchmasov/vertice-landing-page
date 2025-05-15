@@ -1,0 +1,29 @@
+.footer {
+  z-index: 5;
+  margin-top: 100px;
+  margin-inline: -140px;
+  padding-inline: 140px;
+  height: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #252525;
+
+  &__copyright {
+    font-size: 14px;
+    line-height: 22px;
+    color: #b8b8b8;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 10px;
+
+    &--link {
+        display: flex;
+        align-items: center;
+    }
+  }
+}

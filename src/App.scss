@@ -23,11 +23,15 @@
   &::after {
     content: "";
     position: fixed;
-    height: 94px;
+    height: 80px;
     pointer-events: none;
     inset: auto 0 0;
     background: linear-gradient(to top, #1e1e1e, rgba(30, 30, 30, 0));
     z-index: 999;
+  }
+
+  &.no-footer-fade::after {
+    display: none;
   }
 }
 

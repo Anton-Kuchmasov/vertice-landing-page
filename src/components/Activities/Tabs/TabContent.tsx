@@ -43,7 +43,7 @@ const TabContent: React.FC<TabContentProps> = ({
               </div>
               <div className="tab-content__item--content benefit">
                 <h4 className="benefit__header">{benefit.title}</h4>
-                <p className="benefit__text">{benefit.benefit}</p>
+                <p className="benefit__text inter">{benefit.benefit}</p>
               </div>
             </li>
           ))}
