@@ -3,6 +3,7 @@ import Activities from "./components/Activities/Activities";
 import Benefits from "./components/Benefits/Benefits";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
         </div>
         <Benefits />
         <Services />
-        <Activities />  
+        <Activities />
+        <Reviews />
       </main>
     </div>
   );

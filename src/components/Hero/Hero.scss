@@ -1,7 +1,6 @@
 @use "/src/utils/styles/mixins.scss" as mixins;
 
 .hero {
-  margin-top: 236px;
   padding-inline: 100px;
   display: flex;
   flex-direction: column;
@@ -29,7 +28,7 @@
 
   &__scroll-down {
     position: absolute;
-    top: calc(100vh - 116px);
+    top: calc(100vh - 66px);
 
     display: flex;
     gap: 4px;

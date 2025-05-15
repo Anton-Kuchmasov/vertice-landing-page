@@ -1,8 +1,12 @@
+@use "/src/utils/styles/mixins.scss" as mixins;
+
 .activities {
+  position: relative;
   margin-top: 125px;
   width: 100%;
   padding: 60px 65px 80px 80px;
   border-radius: 60px;
+  border: 1px solid var(--main-gray-border);
   background-color: var(--main-dark-gray-background);
 
   &__wrapper {
@@ -18,5 +22,33 @@
   &__subtitle {
     color: #b8b8b8;
     margin-bottom: 40px;
+  }
+
+  &__blur {
+    position: absolute;
+    @include mixins.container-blur;
+    background-color: #c48d534f;
+    pointer-events: none;
+    filter: blur(180px);
+
+    &--1 {
+      top: 0;
+      left: 0;
+    }
+
+    &--2 {
+      top: 0;
+      right: 0;
+    }
+
+    &--3 {
+      bottom: 0;
+      left: 0;
+    }
+
+    &--4 {
+      bottom: 0;
+      right: 0;
+    }
   }
 }

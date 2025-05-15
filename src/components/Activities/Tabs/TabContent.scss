@@ -1,5 +1,9 @@
 @use "/src/utils/styles/mixins.scss" as mixins;
 
+.wrapper {
+  position: relative;
+}
+
 .tab-content {
   display: flex;
   justify-content: space-between;

@@ -9,6 +9,10 @@ const Activities = () => {
         Aprende y opera con las herramientas que mejor se adaptan a ti
       </p>
       <ActivitiesTabs />
+      <div className="activities__blur activities__blur--1"></div>
+      <div className="activities__blur activities__blur--2"></div>
+      <div className="activities__blur activities__blur--3"></div>
+      <div className="activities__blur activities__blur--4"></div>
     </section>
   );
 };
