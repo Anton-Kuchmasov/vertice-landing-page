@@ -126,21 +126,40 @@
     gap: 12px;
 
     @include mixins.onDesktop {
-        gap: 16px;
+      gap: 16px;
     }
 
     &--text {
-        color: #b8b8b8;
+      color: #b8b8b8;
     }
   }
 
   &__button {
-    @include mixins.primary-button-gold;
-    box-sizing: border-box;
-    width: 100%;
+    @include mixins.only-gradient-border-button;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 66px;
+    border-radius: 66px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
 
     @include mixins.onDesktop {
-        width: fit-content;
+      width: fit-content;
+    }
+    transition: all 0.3s ease;
+
+    &:hover {
+      @include mixins.primary-button-gold;
+      padding-inline: 66px;
+
+      &::before {
+        display: none;
+      }
     }
   }
 
