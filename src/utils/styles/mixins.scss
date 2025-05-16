@@ -1,3 +1,11 @@
+$desktop-min-width: 640px;
+
+@mixin onDesktop {
+  @media (min-width: $desktop-min-width) {
+    @content;
+  }
+}
+
 @mixin primary-button-gold {
   display: flex;
   justify-content: center;
@@ -40,9 +48,9 @@
 }
 
 @mixin container-blur {
-    position: absolute;
-    height: 186px;
-    width: 186px;
-    background-color: #c48d53;
-    filter: blur(280px);
+  position: absolute;
+  height: 186px;
+  width: 186px;
+  background-color: #c48d53;
+  filter: blur(280px);
 }

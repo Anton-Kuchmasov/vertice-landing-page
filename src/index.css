@@ -18,6 +18,8 @@
     var(--main-gradient-end)
   );
 
+  --desktop-min-width: 640px;
+
   font-family: Montserrat, sans-serif;
   line-height: 1.5;
   font-weight: 400;

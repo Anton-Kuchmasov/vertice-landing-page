@@ -1,32 +1,54 @@
 @use "/src/utils/styles/mixins.scss" as mixins;
 
 .services {
-  margin-top: 125px;
+  margin-top: 80px;
+
+  @include mixins.onDesktop {
+    margin-top: 125px;
+  }
 
   &__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 38px;
+    gap: 20px;
+
+    @include mixins.onDesktop {
+      gap: 38px;
+    }
   }
 
   &__top {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
+
+    @include mixins.onDesktop {
+      gap: 12px;
+    }
   }
 
   &__text {
     color: var(--main-gray-color);
-    font-size: 18px;
+    font-size: 14px;
     line-height: 150%;
+
+    @include mixins.onDesktop {
+      font-size: 18px;
+    }
   }
 
   &__grid {
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @include mixins.onDesktop {
+      display: grid;
+      grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+      gap: 30px;
+    }
 
     width: 100%;
   }
@@ -41,7 +63,7 @@
 
   &__blur {
     @include mixins.container-blur;
-    background-color: #C48D534F;
+    background-color: #c48d534f;
     pointer-events: none;
     bottom: 0;
     right: 0;
@@ -51,12 +73,20 @@
 
   &__wrapper {
     @include mixins.only-gradient-border-button;
-    padding: 36px;
+    padding: 30px 25px;
     border-radius: 20px;
+
+    @include mixins.onDesktop {
+      padding: 36px;
+    }
 
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 24px;
+
+    @include mixins.onDesktop {
+      gap: 30px;
+    }
   }
 
   &__top {
@@ -67,23 +97,47 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 17px;
+      padding: 14px;
       border-radius: 15px;
       background-color: #272727;
+
+      @include mixins.onDesktop {
+        padding: 17px;
+      }
     }
 
     &--number {
       font-weight: 800;
-      font-size: 71px;
+      font-size: 51px;
       line-height: 100%;
       color: #1e1e1e;
       -webkit-text-stroke: 1.5px #3a3939;
       paint-order: stroke fill;
+
+      @include mixins.onDesktop {
+        font-size: 71px;
+      }
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @include mixins.onDesktop {
+        gap: 16px;
+    }
+
+    &--text {
+        color: #b8b8b8;
     }
   }
 
   &__button {
     @include mixins.primary-button-gold;
+    box-sizing: border-box;
+    width: 100%;
   }
 
   &:hover {

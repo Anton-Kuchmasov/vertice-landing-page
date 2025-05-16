@@ -1,14 +1,21 @@
 @use "/src/utils/styles/mixins.scss" as mixins;
+@use "/src/utils/styles/normalize.scss" as *;
 
 .app-container {
   position: relative;
 
   background-color: var(--main-black-color);
   color: var(--main-font-color);
-  padding: 30px 140px 0;
+  padding: 15px 15px 0;
   z-index: 1;
+  overflow-x: hidden;
 
   scroll-behavior: smooth;
+
+  @include mixins.onDesktop {
+    padding: 30px 140px 0;
+    overflow-x: visible;
+  }
 
   &::before {
     content: "";
@@ -41,7 +48,11 @@
   border: none;
 
   position: sticky;
-  padding-top: 30px;
+  padding-top: 15px;
+
+  @include mixins.onDesktop {
+    padding-top: 30px;
+  }
 }
 
 .header-wrapper {
@@ -60,7 +71,11 @@
 }
 
 .hero-wrapper {
-  height: calc(100vh - 124px);
+  height: calc(100vh - 76px);
+
+  @include mixins.onDesktop {
+    height: calc(100vh - 124px);
+  }
 
   overflow: visible;
   display: flex;

@@ -1,10 +1,13 @@
 import Marquee from "react-fast-marquee";
+import { useIsMobile } from "../../utils/hooks/useIsMobile";
 
 const PromoMarquee = () => {
+  const isMobile = useIsMobile();
+
   return (
     <Marquee
       style={{
-        marginTop: 64,
+        marginTop: isMobile ? 60 : 64,
         position: "relative",
         left: "-140px",
         width: "calc(100% + 280px)",
@@ -25,7 +28,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -43,7 +46,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -61,7 +64,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -79,7 +82,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -97,7 +100,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -115,7 +118,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -133,7 +136,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -151,7 +154,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -169,7 +172,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -187,7 +190,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -205,7 +208,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -223,7 +226,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -241,7 +244,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -259,7 +262,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -277,7 +280,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -295,7 +298,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -313,7 +316,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -331,7 +334,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -349,7 +352,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -367,7 +370,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -385,7 +388,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -403,7 +406,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -421,7 +424,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -439,7 +442,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -457,7 +460,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -475,7 +478,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -493,7 +496,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -511,7 +514,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -529,7 +532,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -547,7 +550,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -565,7 +568,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -583,7 +586,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -601,7 +604,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -619,7 +622,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -637,7 +640,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -655,7 +658,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -673,7 +676,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -691,7 +694,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -709,7 +712,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -727,7 +730,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -745,7 +748,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -763,7 +766,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -781,7 +784,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -799,7 +802,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -817,7 +820,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -835,7 +838,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -853,7 +856,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -871,7 +874,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -889,7 +892,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -907,7 +910,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -925,7 +928,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -943,7 +946,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -961,7 +964,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -979,7 +982,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -997,7 +1000,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1015,7 +1018,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1033,7 +1036,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1051,7 +1054,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1069,7 +1072,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1087,7 +1090,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1105,7 +1108,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1123,7 +1126,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1141,7 +1144,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1159,7 +1162,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1177,7 +1180,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1195,7 +1198,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1213,7 +1216,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1231,7 +1234,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1249,7 +1252,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1267,7 +1270,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1285,7 +1288,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1303,7 +1306,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1321,7 +1324,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1339,7 +1342,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1357,7 +1360,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1375,7 +1378,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1393,7 +1396,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1411,7 +1414,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1429,7 +1432,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1447,7 +1450,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1465,7 +1468,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1483,7 +1486,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1501,7 +1504,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1519,7 +1522,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1537,7 +1540,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1555,7 +1558,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1573,7 +1576,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1591,7 +1594,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1609,7 +1612,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1627,7 +1630,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1645,7 +1648,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1663,7 +1666,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1681,7 +1684,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1699,7 +1702,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1717,7 +1720,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1735,7 +1738,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1753,7 +1756,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1771,7 +1774,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1789,7 +1792,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1807,7 +1810,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1825,7 +1828,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1843,7 +1846,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1861,7 +1864,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1879,7 +1882,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1897,7 +1900,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1915,7 +1918,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1933,7 +1936,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1951,7 +1954,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1969,7 +1972,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -1987,7 +1990,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -2005,7 +2008,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div
@@ -2023,7 +2026,7 @@ const PromoMarquee = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 10,
-          marginRight: 20
+          marginRight: 20,
         }}
       >
         <div

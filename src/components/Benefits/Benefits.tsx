@@ -1,7 +1,10 @@
 import SmallStar from "../../assets/icons/benefits/SmallStar";
+import { useIsMobile } from "../../utils/hooks/useIsMobile";
 import "./Benefits.scss";
 
 const Benefits = () => {
+  const isMobile = useIsMobile();
+
   return (
     <section className="benefits benefits__wrapper">
       <div className="benefits__blur benefits__blur--top" />
@@ -13,7 +16,8 @@ const Benefits = () => {
         <p className="benefits__benefit">
           <span className="benefits__benefit--important">
             VÉRTICE filtra el mercado con cabeza fría:
-          </span>{" "}
+          </span>
+          {isMobile ? <br /> : " "}
           estructuras, zonas limpias y entradas que tienen sentido.
         </p>
         <p className="benefits__benefit">
@@ -21,10 +25,10 @@ const Benefits = () => {
         </p>
         <p className="benefits__benefit">
           <span className="benefits__benefit--important">Formación real.</span>{" "}
-          Videos que explican cada entrada. Un sistema que piensa antes que tú.
+          Videos que explican cada entrada.{isMobile ? <br/> : ''} Un sistema que piensa antes que tú.
         </p>
         <p className="benefits__benefit">
-          Tú decides si ejecutas.{" "}
+          Tú decides si ejecutas.{isMobile ? <br /> : " "}
           <span className="benefits__benefit--important">VÉRTICE</span> ya
           filtró lo demás.
         </p>

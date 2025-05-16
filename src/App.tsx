@@ -46,7 +46,7 @@ function App() {
         <PromoMarquee />
         <ContactSection />
       </main>
-      <footer>
+      <footer className="footer-wrapper">
         <Footer />
       </footer>
     </div>

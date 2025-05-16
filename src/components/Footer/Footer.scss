@@ -1,15 +1,31 @@
+@use "/src/utils/styles/mixins.scss" as mixins;
+
 .footer {
   z-index: 5;
-  margin-top: 100px;
-  margin-inline: -140px;
-  padding-inline: 140px;
-  height: 90px;
+  margin-top: 65px;
+  margin-inline: -20px;
+  padding-inline: -20px;
+  padding-top: 25px;
+  padding-bottom: 16px;
+  height: 111px;
 
+  
   display: flex;
+  flex-direction: column-reverse;
   justify-content: space-between;
   align-items: center;
 
   background-color: #252525;
+
+  @include mixins.onDesktop {
+    flex-direction: row;
+    margin-top: 100px;
+    padding-inline: 140px;
+    padding-block: 0;
+    margin-inline: -140px;
+    height: 90px;
+  }
+
 
   &__copyright {
     font-size: 14px;
@@ -22,8 +38,8 @@
     gap: 10px;
 
     &--link {
-        display: flex;
-        align-items: center;
+      display: flex;
+      align-items: center;
     }
   }
 }

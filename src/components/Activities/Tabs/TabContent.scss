@@ -7,27 +7,57 @@
 .tab-content {
   display: flex;
   justify-content: space-between;
+  flex-direction: column-reverse;
+  gap: 30px;
+  align-items: center;
+
+  @include mixins.onDesktop {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  &__title {
+    font-size: 22px;
+
+    @include mixins.onDesktop {
+      font-size: 28px;
+    }
+  }
 
   &__left {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 40px;
+
+    @include mixins.onDesktop {
+        align-items: flex-start;
+
+    }
   }
 
   &__right {
-    margin-left: 76px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
+    @include mixins.onDesktop {
+      margin-left: 76px;
+    }
   }
 
   &__media {
     background-color: #2a2a2a;
-    height: 360px;
-    width: 360px;
+    height: 215px;
+    width: 100%;
     border-radius: 15px;
+
+    @include mixins.onDesktop {
+      height: 360px;
+      width: 360px;
+    }
   }
 
   &__title {
@@ -39,10 +69,13 @@
   }
 
   &__list {
-    padding-left: 30px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+
+    @include mixins.onDesktop {
+      padding-left: 30px;
+    }
   }
 
   &__item {
@@ -52,7 +85,6 @@
   }
 
   &__link {
-    margin-left: 30px;
     @include mixins.only-gradient-border-button;
     height: 60px;
     display: flex;
@@ -64,6 +96,10 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+
+    @include mixins.onDesktop {
+      margin-left: 30px;
+    }
 
     transition: all 0.3s ease;
 
@@ -84,15 +120,26 @@
   gap: 6px;
 
   &__header {
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 130%;
+    white-space: nowrap;
+
+    @include mixins.onDesktop {
+      font-weight: 600;
+      font-size: 22px;
+      white-space: inherit;
+    }
   }
 
   &__text {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 130%;
     color: #b8b8b8;
+
+    @include mixins.onDesktop {
+      font-size: 18px;
+    }
   }
 }

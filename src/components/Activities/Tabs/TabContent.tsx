@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
-import "./TabContent.scss";
 import GreenTickIcon from "../../../assets/icons/activities/GreenTickIcon";
+import "./TabContent.scss";
 
 export type TabContentBenefit = {
   title: string;

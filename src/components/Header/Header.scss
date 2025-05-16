@@ -1,3 +1,5 @@
+@use "/src/utils/styles/mixins.scss" as mixins;
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +24,30 @@
       background-color: #96754861;
       filter: blur(19px);
     }
+  }
+
+  &--desktop {
+    display: none;
+
+    @include mixins.onDesktop {
+      display: flex;
+    }
+  }
+
+  &--mobile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-inline: 15px;
+
+    @include mixins.onDesktop {
+        display: none;
+    }
+  }
+
+  &__burger-menu {
+    display: flex;
+    align-items: center;
   }
 
   &__nav {

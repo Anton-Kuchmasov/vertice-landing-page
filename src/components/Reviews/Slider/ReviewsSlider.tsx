@@ -41,15 +41,18 @@ const reviewsContent: ReviewCardType[] = [
 import type { ReviewCardType } from "../Card/ReviewCard";
 import ReviewCard from "../Card/ReviewCard";
 import "./ReviewsSlider.scss";
+import { useIsMobile } from "../../../utils/hooks/useIsMobile";
 
 const ReviewsSlider = () => {
+    const isMobile = useIsMobile();
+
   return (
     <div
       className="reviews-slider"
     >
       <Swiper
         modules={[Navigation, Pagination]}
-        slidesPerView={2.2}
+        slidesPerView={isMobile ? 1 : 2.2}
         spaceBetween={24}
         navigation={{
           nextEl: ".reviews-slider__next",
