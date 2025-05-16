@@ -138,6 +138,10 @@
     @include mixins.primary-button-gold;
     box-sizing: border-box;
     width: 100%;
+
+    @include mixins.onDesktop {
+        width: fit-content;
+    }
   }
 
   &:hover {

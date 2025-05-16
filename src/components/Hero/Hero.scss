@@ -73,5 +73,21 @@
     border: none;
     background-color: inherit;
     color: var(--main-gray-color);
+
+    animation: up-down 2s linear infinite;
   }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
