@@ -1,8 +1,15 @@
 import TelegramIcon from "../../assets/icons/header/TelegramIcon";
 import YouTubeIcon from "../../assets/icons/header/YouTubeIcon";
 import "./Header.scss";
+import "./Menu.scss";
 
-const Header = () => {
+type HeaderProps = {
+    handleMenu: (value: boolean) => void;
+}
+
+const Header:React.FC<HeaderProps> = ({handleMenu}: HeaderProps) => {
+
+
   return (
     <>
       <div className="header header--desktop">
@@ -48,7 +55,10 @@ const Header = () => {
           <div className="header__logo--blur" />
           <img src="./images/vertice-logo.png" alt="Vertice Logo" />
         </div>
-        <div className="header__burger-menu">
+        <button
+          className="header__burger-menu"
+          onClick={() => handleMenu(true)}
+        >
           <svg
             width="40"
             height="40"
@@ -69,8 +79,9 @@ const Header = () => {
               fill="white"
             />
           </svg>
-        </div>
+        </button>
       </div>
+
     </>
   );
 };

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./App.scss";
 import Activities from "./components/Activities/Activities";
 import Benefits from "./components/Benefits/Benefits";
@@ -9,8 +9,23 @@ import Hero from "./components/Hero/Hero";
 import PromoMarquee from "./components/Marquee/PromoMarquee";
 import Reviews from "./components/Reviews/Reviews";
 import Services from "./components/Services/Services";
+import YouTubeIcon from "./assets/icons/header/YouTubeIcon";
+import TelegramIcon from "./assets/icons/header/TelegramIcon";
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add("menu-open");
+    } else {
+      document.body.classList.remove("menu-open");
+    }
+
+    return () => {
+      document.body.classList.remove("menu-open");
+    };
+  }, [isMenuOpen]);
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -30,26 +45,96 @@ function App() {
   }, []);
 
   return (
-    <div className="app-container">
-      <header className="header-wrapper">
-        <Header />
-      </header>
+    <>
+      <div className="app-container">
+        <header className="header-wrapper">
+          <Header handleMenu={setIsMenuOpen} />
+        </header>
 
-      <main className="main-wrapper">
-        <div className="hero-wrapper">
-          <Hero />
+        <main className="main-wrapper">
+          <div className="hero-wrapper">
+            <Hero />
+          </div>
+          <Benefits />
+          <Services />
+          <Activities />
+          <Reviews />
+          <PromoMarquee />
+          <ContactSection />
+        </main>
+        <footer className="footer-wrapper">
+          <Footer />
+        </footer>
+      </div>
+      <aside
+        className={`header__menu menu ${isMenuOpen ? "open" : ""}`}
+        id="menu"
+      >
+        <a href="#" className="menu__blur">
+          <button className="menu__blur" onClick={() => setIsMenuOpen(false)}>
+            <div className="menu__close">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 1L19 19M19 1L1.00002 19"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </a>
+        <div className="menu__content">
+          <nav className="menu__nav">
+            <ul className="menu__list">
+              <li className="menu__item" onClick={() => setIsMenuOpen(false)}>
+                <a href="#" className="menu__link">
+                  Inicio
+                </a>
+              </li>
+              <li className="menu__item" onClick={() => setIsMenuOpen(false)}>
+                <a href="#" className="menu__link">
+                  Lo que ofrecemos
+                </a>
+              </li>
+              <li className="menu__item" onClick={() => setIsMenuOpen(false)}>
+                <a href="#" className="menu__link">
+                  Cómo funciona
+                </a>
+              </li>
+              <li className="menu__item" onClick={() => setIsMenuOpen(false)}>
+                <a href="#" className="menu__link">
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div className="menu__bottom">
+            <a
+              href="#"
+              className="menu__button"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Empezar ahora con VÉRTICE
+            </a>
+            <div className="menu__icons">
+              <a href="#" onClick={() => setIsMenuOpen(false)}>
+                <YouTubeIcon />
+              </a>
+              <a href="#" onClick={() => setIsMenuOpen(false)}>
+                <TelegramIcon />
+              </a>
+            </div>
+          </div>
         </div>
-        <Benefits />
-        <Services />
-        <Activities />
-        <Reviews />
-        <PromoMarquee />
-        <ContactSection />
-      </main>
-      <footer className="footer-wrapper">
-        <Footer />
-      </footer>
-    </div>
+      </aside>
+    </>
   );
 }
 
