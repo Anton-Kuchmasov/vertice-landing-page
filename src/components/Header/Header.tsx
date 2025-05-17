@@ -42,10 +42,10 @@ const Header:React.FC<HeaderProps> = ({handleMenu}: HeaderProps) => {
           </ul>
         </div>
         <div className="header__icons">
-          <a href="#" className="header__social-link">
+          <a href="https://t.me/+jUzjIJ6qoos1MDhi" target="_blank" className="header__social-link">
             <YouTubeIcon />
           </a>
-          <a href="#" className="header__social-link">
+          <a href="https://t.me/+jUzjIJ6qoos1MDhi" target="_blank" className="header__social-link">
             <TelegramIcon />
           </a>
         </div>

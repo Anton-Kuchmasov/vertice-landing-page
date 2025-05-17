@@ -124,10 +124,10 @@ function App() {
               Empezar ahora con VÉRTICE
             </a>
             <div className="menu__icons">
-              <a href="#" onClick={() => setIsMenuOpen(false)}>
+              <a href="https://t.me/+jUzjIJ6qoos1MDhi" target="_blank" onClick={() => setIsMenuOpen(false)}>
                 <YouTubeIcon />
               </a>
-              <a href="#" onClick={() => setIsMenuOpen(false)}>
+              <a href="https://t.me/+jUzjIJ6qoos1MDhi" target="_blank" onClick={() => setIsMenuOpen(false)}>
                 <TelegramIcon />
               </a>
             </div>
