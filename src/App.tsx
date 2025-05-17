@@ -94,22 +94,22 @@ function App() {
           <nav className="menu__nav">
             <ul className="menu__list">
               <li className="menu__item" onClick={() => setIsMenuOpen(false)}>
-                <a href="#" className="menu__link">
+                <a href="#inicio" className="menu__link">
                   Inicio
                 </a>
               </li>
               <li className="menu__item" onClick={() => setIsMenuOpen(false)}>
-                <a href="#" className="menu__link">
+                <a href="#ofrecemos" className="menu__link">
                   Lo que ofrecemos
                 </a>
               </li>
               <li className="menu__item" onClick={() => setIsMenuOpen(false)}>
-                <a href="#" className="menu__link">
+                <a href="#funciona" className="menu__link">
                   Cómo funciona
                 </a>
               </li>
               <li className="menu__item" onClick={() => setIsMenuOpen(false)}>
-                <a href="#" className="menu__link">
+                <a href="#contacto" className="menu__link">
                   Contacto
                 </a>
               </li>

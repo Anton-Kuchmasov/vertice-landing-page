@@ -41,7 +41,7 @@
     padding-inline: 15px;
 
     @include mixins.onDesktop {
-        display: none;
+      display: none;
     }
   }
 
@@ -51,6 +51,7 @@
   }
 
   &__nav {
+    position: relative;
     z-index: 1;
   }
 
@@ -88,18 +89,19 @@
     line-height: 60px;
 
     text-transform: uppercase;
+    white-space: nowrap;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
+  }
 
-    &:hover::before {
-      content: "";
-      position: absolute;
-      bottom: 13px;
-
-      height: 3px;
-      width: 100%;
-      background: linear-gradient(to right, #c9905600, #c99056, #c9905600);
-    }
+  &__underline {
+    position: absolute;
+    bottom: 10px;
+    height: 3px;
+    width: 0;
+    background: linear-gradient(to right, #c9905600, #c99056, #c9905600);
+    transition: all 0.3s ease, width 0s ease;
+    pointer-events: none;
   }
 }

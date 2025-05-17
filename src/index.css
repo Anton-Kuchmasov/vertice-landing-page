@@ -32,10 +32,18 @@ html * {
   box-sizing: border-box;
 }
 
-body {
-    overflow-x: hidden;
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 91px;
+
+  @media (min-width: 640px) {
+    scroll-padding: 106px;
+  }
 }
- 
+
+body {
+  overflow-x: hidden;
+}
 
 .inter {
   font-family: Inter, sans-serif;

@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="hero">
+    <section className="hero" id="inicio">
       <div className=" hero__wrapper">
         {" "}
         <h1 className="hero__header">

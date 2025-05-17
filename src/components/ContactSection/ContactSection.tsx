@@ -3,7 +3,7 @@ import "./ContactSection.scss";
 
 const ContactSection = () => {
   return (
-    <section className="contact-section contact-section__wrapper">
+    <section className="contact-section contact-section__wrapper" id="contacto">
       <h2 className="contact-section__header">Ponte en contacto</h2>
       <p className="contact-section__subtitle inter">
         Estamos aquí para ayudarle

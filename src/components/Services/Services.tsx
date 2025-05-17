@@ -16,7 +16,7 @@ const Services = () => {
   const isMobile = useIsMobile();
 
   return (
-    <section className="services services__wrapper">
+    <section className="services services__wrapper" id="ofremos">
       <div className="services__top">
         <h2 className="services__header">Servicios</h2>
         <p className="services__text inter">

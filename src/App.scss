@@ -10,7 +10,6 @@
   z-index: 1;
   overflow-x: hidden;
 
-  scroll-behavior: smooth;
 
   @include mixins.onDesktop {
     padding: 30px 140px 0;
