@@ -12,6 +12,7 @@ export type TabContentType = {
   title: string;
   benefits: TabContentBenefit[];
   mediaContent?: string;
+  objectFit?: 'cover' | 'contain'
 };
 
 type TabContentProps = {
@@ -23,7 +24,7 @@ const TabContent: React.FC<TabContentProps> = ({
 }: TabContentProps) => {
   if (!content) return null;
 
-  const { title, accentText, benefits, mediaContent } = content;
+  const { title, accentText, benefits, mediaContent, objectFit } = content;
 
   return (
     <div className="tab-content">
@@ -57,7 +58,7 @@ const TabContent: React.FC<TabContentProps> = ({
       </div>
       <div className="tab-content__right">
       <div className="tab-content__media" style={{background: mediaContent ? 'transparent': ''}}>
-        {mediaContent && <img className="tab-content__media--content" src={mediaContent} />}
+        {mediaContent && <img className="tab-content__media--content" src={mediaContent} style={{objectFit}}/>}
         </div> 
       </div>
     </div>
