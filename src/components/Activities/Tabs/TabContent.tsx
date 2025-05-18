@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import GreenTickIcon from "../../../assets/icons/activities/GreenTickIcon";
 import "./TabContent.scss";
 
@@ -12,7 +11,7 @@ export type TabContentType = {
   accentText?: string;
   title: string;
   benefits: TabContentBenefit[];
-  mediaContent?: ReactNode;
+  mediaContent?: string;
 };
 
 type TabContentProps = {
@@ -24,7 +23,7 @@ const TabContent: React.FC<TabContentProps> = ({
 }: TabContentProps) => {
   if (!content) return null;
 
-  const { title, accentText, benefits } = content;
+  const { title, accentText, benefits, mediaContent } = content;
 
   return (
     <div className="tab-content">
@@ -48,12 +47,18 @@ const TabContent: React.FC<TabContentProps> = ({
             </li>
           ))}
         </ul>
-        <a href="https://t.me/+jUzjIJ6qoos1MDhi" className="tab-content__link">
+        <a
+          href="https://t.me/+jUzjIJ6qoos1MDhi"
+          target="_blank"
+          className="tab-content__link"
+        >
           Comenzar a operar
         </a>
       </div>
       <div className="tab-content__right">
-        <div className="tab-content__media" />
+      <div className="tab-content__media" style={{background: mediaContent ? 'transparent': ''}}>
+        {mediaContent && <img className="tab-content__media--content" src={mediaContent} />}
+        </div> 
       </div>
     </div>
   );

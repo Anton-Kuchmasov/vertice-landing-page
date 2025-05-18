@@ -25,6 +25,7 @@ const activitiesTabsContent: TabContentType[] = [
           "Cada operación tiene sentido dentro de la estrategia. Así operan los profesionales: sin ruido, sin prisas.",
       },
     ],
+    mediaContent: 'public/first-tab.jpg'
   },
   {
     value: "youtube",
@@ -47,6 +48,7 @@ const activitiesTabsContent: TabContentType[] = [
           "Noticias, niveles clave, análisis estructural — contenido de trader para traders. Aprende con visión profesional.",
       },
     ],
+    mediaContent: 'public/content-video.gif'
   },
   {
     value: "formacion",
@@ -68,6 +70,7 @@ const activitiesTabsContent: TabContentType[] = [
           "Donde no se habla de “predicciones”, sino de estructuras y entradas con lógica. Acompañamiento real y aprendizaje colectivo.",
       },
     ],
+    mediaContent: 'public/third-tab.png'
   },
 ];
 

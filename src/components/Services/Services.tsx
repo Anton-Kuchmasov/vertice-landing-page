@@ -66,7 +66,7 @@ No entregamos alertas al azar. Cada señal está basada en estructura de mercado
           />
         </div>
       </div>
-      <a href="https://t.me/+jUzjIJ6qoos1MDhi" className="services-card__button">
+      <a href="https://t.me/+jUzjIJ6qoos1MDhi" target="_blank" className="services-card__button">
         Formule una pregunta
       </a>
     </section>

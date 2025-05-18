@@ -1,14 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Outlet } from "react-router";
 import TelegramIcon from "../../assets/icons/header/TelegramIcon";
 import YouTubeIcon from "../../assets/icons/header/YouTubeIcon";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 
 import "../../App.scss";
 
 const MainLayout = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const scrollPosition = useRef(0);
 
   useEffect(() => {
     if (isMenuOpen) {
@@ -17,10 +19,27 @@ const MainLayout = () => {
       document.body.classList.remove("menu-open");
     }
 
+    const target = document.querySelector(".menu");
+    if (isMenuOpen && target) {
+      scrollPosition.current = window.scrollY;
+      disableBodyScroll(target);
+    } else {
+      enableBodyScroll(target!);
+      setTimeout(() => {
+
+          window.scrollTo({
+              top: scrollPosition.current,
+              left: 0,
+              behavior: "instant",
+            });
+        }, 0);
+    }
+
     return () => {
       document.body.classList.remove("menu-open");
     };
   }, [isMenuOpen]);
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -42,7 +61,7 @@ const MainLayout = () => {
   return (
     <>
       <div className="app-container">
-        <div className="promo promo__wrapper"/>
+        <div className="promo promo__wrapper" />
         <header className="header-wrapper">
           <Header handleMenu={setIsMenuOpen} />
         </header>

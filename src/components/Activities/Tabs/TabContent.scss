@@ -13,7 +13,6 @@
 
   @include mixins.onDesktop {
     flex-direction: row;
-    align-items: flex-start;
     gap: 0;
   }
 
@@ -53,6 +52,13 @@
     height: 215px;
     width: 100%;
     border-radius: 15px;
+
+    &--content {
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
 
     @include mixins.onDesktop {
       height: 360px;
