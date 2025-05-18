@@ -1,0 +1,61 @@
+@use "/src/utils/styles/mixins.scss" as mixins;
+
+.rights-page {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 111px;
+
+  @include mixins.onDesktop {
+    padding-top: 160px;
+  }
+
+  &__header {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+
+    margin-bottom: 16px;
+  }
+
+  &__content {
+    line-height: 130%;
+    color: #b8b8b8;
+  }
+
+  &__paragraph {
+    margin-bottom: 26px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+    margin-bottom: 30px;
+  }
+
+  &__right {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  &__link {
+    display: flex;
+    padding: 12px 20px;
+    max-width: fit-content;
+    align-self: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    border: 1px solid #fff;
+    border-radius: 65px;
+
+    @include mixins.onDesktop {
+        align-self: flex-start;
+    }
+  }
+}

@@ -33,6 +33,20 @@
     color: #b8b8b8;
   }
 
+  &__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #b8b8b8;
+
+    text-decoration: underline;
+  }
+
+  &__right {
+    display: flex;
+    gap: 15px;
+  }
+
   &__icons {
     display: flex;
     gap: 10px;
