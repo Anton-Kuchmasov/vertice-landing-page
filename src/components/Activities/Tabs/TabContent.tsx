@@ -48,7 +48,7 @@ const TabContent: React.FC<TabContentProps> = ({
             </li>
           ))}
         </ul>
-        <a href="#" className="tab-content__link">
+        <a href="https://t.me/+jUzjIJ6qoos1MDhi" className="tab-content__link">
           Comenzar a operar
         </a>
       </div>

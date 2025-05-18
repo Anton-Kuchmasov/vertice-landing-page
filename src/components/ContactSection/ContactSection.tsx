@@ -10,7 +10,7 @@ const ContactSection = () => {
         <br /> Descubra las ventajas de los servicios VÉRTICE a través de
         nuestra consulta inicial gratuita.
       </p>
-      <a href="#" className="contact-section__link">
+      <a href="https://t.me/+jUzjIJ6qoos1MDhi" className="contact-section__link">
         Formule una pregunta
       </a>
       <div className="contact-section__star contact-section__star--1">

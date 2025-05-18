@@ -6,7 +6,38 @@ $desktop-min-width: 640px;
   }
 }
 
+@mixin btn-hover($duration) {
+  transition: transform $duration ease-in-out;
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+@mixin reverse-gradient {
+    background: linear-gradient(
+        to right,
+        #c99056,
+        #af7f45,
+        #6d451c,
+        #af7f45,
+        #c99056
+      );
+  background-size: 200% auto;
+  background-position: left center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-position: right center;
+  }
+}
+
 @mixin primary-button-gold {
+  @include btn-hover(0.2s);
+  @include reverse-gradient;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +47,7 @@ $desktop-min-width: 640px;
   border-radius: 65px;
   padding-inline: 32px;
 
-  background: linear-gradient(to right, #c99056, #af7f45, #6d451c);
+
   color: var(--main-button-font-color);
   font-size: 14px;
   line-height: 17px;

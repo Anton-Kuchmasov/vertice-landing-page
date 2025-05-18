@@ -30,7 +30,7 @@ const Hero = () => {
           estructura y criterio. Con contenido educativo, formación profesional
           y señales filtradas por lógica.
         </p>
-        <a href="#" className="hero__button">
+        <a href="https://t.me/+jUzjIJ6qoos1MDhi" className="hero__button">
           Empezar ahora con VÉRTICE
         </a>
       </div>
