@@ -1,7 +1,7 @@
 @use "/src/utils/styles/mixins.scss" as mixins;
 
 .hero {
-    position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,12 +12,11 @@
   }
 
   &__wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-
-
   }
 
   &__header {
@@ -65,7 +64,7 @@
 
   &__scroll-down {
     position: absolute;
-    top: calc(100vh - 66px);
+    bottom: -20vh;
 
     display: flex;
     gap: 4px;
@@ -82,15 +81,15 @@
 }
 
 @keyframes up-down {
-    0% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    50% {
-        transform: translateY(10px);
-    }
+  50% {
+    transform: translateY(10px);
+  }
 
-    100% {
-        transform: translateY(0);
-    }
+  100% {
+    transform: translateY(0);
+  }
 }
