@@ -42,6 +42,7 @@ const MainLayout = () => {
   return (
     <>
       <div className="app-container">
+        <div className="promo promo__wrapper"/>
         <header className="header-wrapper">
           <Header handleMenu={setIsMenuOpen} />
         </header>
