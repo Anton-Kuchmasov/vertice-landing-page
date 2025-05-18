@@ -1,7 +1,6 @@
 @use "/src/utils/styles/mixins.scss" as mixins;
 
 .hero {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,7 +63,7 @@
 
   &__scroll-down {
     position: absolute;
-    bottom: -20vh;
+    top: calc(100vh - 50px);
 
     display: flex;
     gap: 4px;
