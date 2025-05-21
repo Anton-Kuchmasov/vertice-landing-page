@@ -25,7 +25,7 @@ const activitiesTabsContent: TabContentType[] = [
           "Cada operación tiene sentido dentro de la estrategia. Así operan los profesionales: sin ruido, sin prisas.",
       },
     ],
-    mediaContent: 'first-tab.jpg',
+    mediaContent: 'first-tab.png',
     objectFit: 'cover'
   },
   {

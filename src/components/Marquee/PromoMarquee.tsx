@@ -22,547 +22,7 @@ const PromoMarquee = () => {
       gradient={false}
       speed={50}
     >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
+              <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -578,7 +38,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir online
       </div>
       <div
         style={{
@@ -596,7 +56,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -614,7 +74,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -632,7 +92,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -650,7 +110,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -668,7 +128,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -686,7 +146,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir con IA
       </div>
       <div
         style={{
@@ -704,7 +164,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -722,27 +182,8 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
-      </div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 10,
-          marginRight: 20,
-        }}
-      >
-        <div
-          style={{
-            height: 8,
-            width: 8,
-            backgroundColor: "#181818",
-          }}
-        />
-        SEO-ключи
-      </div>
-      <div
+        Trading de opciones digitales
+      </div>      <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -758,7 +199,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir online
       </div>
       <div
         style={{
@@ -776,7 +217,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -794,7 +235,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -812,7 +253,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -830,7 +271,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -848,7 +289,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -866,7 +307,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir con IA
       </div>
       <div
         style={{
@@ -884,7 +325,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -902,9 +343,8 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
-      </div>
-      <div
+        Trading de opciones digitales
+      </div>      <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -920,7 +360,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Invertir online
       </div>
       <div
         style={{
@@ -938,7 +378,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -956,7 +396,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -974,7 +414,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -992,7 +432,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -1010,7 +450,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -1028,7 +468,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Invertir con IA
       </div>
       <div
         style={{
@@ -1046,7 +486,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -1064,9 +504,8 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
-      </div>
-      <div
+        Trading de opciones digitales
+      </div>      <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -1082,7 +521,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir online
       </div>
       <div
         style={{
@@ -1100,7 +539,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -1118,7 +557,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -1136,7 +575,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -1154,7 +593,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -1172,7 +611,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -1190,7 +629,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir con IA
       </div>
       <div
         style={{
@@ -1208,7 +647,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -1226,9 +665,8 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
-      </div>
-      <div
+        Trading de opciones digitales
+      </div>      <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -1244,7 +682,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Invertir online
       </div>
       <div
         style={{
@@ -1262,7 +700,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -1280,7 +718,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -1298,7 +736,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -1316,7 +754,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -1334,7 +772,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -1352,7 +790,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Invertir con IA
       </div>
       <div
         style={{
@@ -1370,7 +808,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -1388,9 +826,8 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
-      </div>
-      <div
+        Trading de opciones digitales
+      </div>      <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -1406,7 +843,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir online
       </div>
       <div
         style={{
@@ -1424,7 +861,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -1442,7 +879,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -1460,7 +897,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -1478,7 +915,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -1496,7 +933,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -1514,7 +951,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir con IA
       </div>
       <div
         style={{
@@ -1532,7 +969,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -1550,9 +987,8 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
-      </div>
-      <div
+        Trading de opciones digitales
+      </div>      <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -1568,7 +1004,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Invertir online
       </div>
       <div
         style={{
@@ -1586,7 +1022,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -1604,7 +1040,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -1622,7 +1058,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -1640,7 +1076,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -1658,7 +1094,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -1676,7 +1112,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Invertir con IA
       </div>
       <div
         style={{
@@ -1694,7 +1130,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -1712,9 +1148,8 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
-      </div>
-      <div
+        Trading de opciones digitales
+      </div>      <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -1730,7 +1165,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir online
       </div>
       <div
         style={{
@@ -1748,7 +1183,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -1766,7 +1201,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -1784,7 +1219,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -1802,7 +1237,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -1820,7 +1255,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -1838,7 +1273,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Invertir con IA
       </div>
       <div
         style={{
@@ -1856,7 +1291,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -1874,9 +1309,8 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
-      </div>
-      <div
+        Trading de opciones digitales
+      </div>      <div
         style={{
           display: "flex",
           alignItems: "center",
@@ -1892,7 +1326,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Invertir online
       </div>
       <div
         style={{
@@ -1910,7 +1344,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Trading para principiantes
       </div>
       <div
         style={{
@@ -1928,7 +1362,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Inversión inteligente
       </div>
       <div
         style={{
@@ -1946,7 +1380,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Ingresos pasivos online
       </div>
       <div
         style={{
@@ -1964,7 +1398,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Robot de trading automático
       </div>
       <div
         style={{
@@ -1982,7 +1416,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        IA para invertir en bolsa 
       </div>
       <div
         style={{
@@ -2000,7 +1434,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Invertir con IA
       </div>
       <div
         style={{
@@ -2018,7 +1452,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        Trading
+        Bot de trading inteligente
       </div>
       <div
         style={{
@@ -2036,7 +1470,7 @@ const PromoMarquee = () => {
             backgroundColor: "#181818",
           }}
         />
-        SEO-ключи
+        Trading de opciones digitales
       </div>
     </Marquee>
   );
