@@ -49,7 +49,7 @@ const activitiesTabsContent: TabContentType[] = [
           "Noticias, niveles clave, análisis estructural — contenido de trader para traders. Aprende con visión profesional.",
       },
     ],
-    mediaContent: 'content-video.gif',
+    videoLink: 'second-tab.mp4',
     objectFit: 'cover'
   },
   {

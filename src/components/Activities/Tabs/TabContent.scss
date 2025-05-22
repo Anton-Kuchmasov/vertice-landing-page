@@ -31,8 +31,7 @@
     gap: 40px;
 
     @include mixins.onDesktop {
-        align-items: flex-start;
-
+      align-items: flex-start;
     }
   }
 
@@ -54,10 +53,10 @@
     border-radius: 15px;
 
     &--content {
-        height: 100%;
-        width: 100%;
-        border-radius: 15px;
-        object-fit: cover;
+      height: 100%;
+      width: 100%;
+      border-radius: 15px;
+      object-fit: cover;
     }
 
     @include mixins.onDesktop {
@@ -89,6 +88,36 @@
     align-items: start;
     gap: 12px;
   }
+
+  &__media--content {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+
+    // чтобы iframe занимал всю высоту контейнера
+    display: block;
+  }
+
+  &__video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 360px; // можно адаптировать
+    aspect-ratio: 9 / 16;
+    overflow: hidden;
+    border-radius: 12px; // по желанию
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); // по желанию
+  }
+  
+  &__video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    top: 0;
+    left: 0;
+  }
+  
 
   &__link {
     @include mixins.only-gradient-border-button;

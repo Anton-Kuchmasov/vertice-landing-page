@@ -12,7 +12,8 @@ export type TabContentType = {
   title: string;
   benefits: TabContentBenefit[];
   mediaContent?: string;
-  objectFit?: 'cover' | 'contain'
+  videoLink?: string;
+  objectFit?: "cover" | "contain";
 };
 
 type TabContentProps = {
@@ -24,7 +25,8 @@ const TabContent: React.FC<TabContentProps> = ({
 }: TabContentProps) => {
   if (!content) return null;
 
-  const { title, accentText, benefits, mediaContent, objectFit } = content;
+  const { title, accentText, benefits, mediaContent, videoLink, objectFit } =
+    content;
 
   return (
     <div className="tab-content">
@@ -57,9 +59,30 @@ const TabContent: React.FC<TabContentProps> = ({
         </a>
       </div>
       <div className="tab-content__right">
-      <div className="tab-content__media" style={{background: mediaContent ? 'transparent': ''}}>
-        {mediaContent && <img className="tab-content__media--content" src={mediaContent} style={{objectFit}}/>}
-        </div> 
+        <div
+          className="tab-content__media"
+          style={{
+            background: mediaContent || videoLink ? "transparent" : "",
+          }}
+        >
+          {mediaContent && (
+            <img
+              className="tab-content__media--content"
+              src={mediaContent}
+              style={{ objectFit }}
+              alt="Media"
+            />
+          )}
+
+          {videoLink && (
+            <video
+            src={videoLink}
+            controls
+            preload="none"
+            style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+          />
+          )}
+        </div>
       </div>
     </div>
   );
