@@ -14,6 +14,7 @@ export type TabContentType = {
   mediaContent?: string;
   videoLink?: string;
   objectFit?: "cover" | "contain";
+  hasLinkToTGBot?: boolean;
 };
 
 type TabContentProps = {
@@ -25,8 +26,15 @@ const TabContent: React.FC<TabContentProps> = ({
 }: TabContentProps) => {
   if (!content) return null;
 
-  const { title, accentText, benefits, mediaContent, videoLink, objectFit } =
-    content;
+  const {
+    title,
+    accentText,
+    benefits,
+    mediaContent,
+    videoLink,
+    objectFit,
+    hasLinkToTGBot,
+  } = content;
 
   return (
     <div className="tab-content">
@@ -51,7 +59,11 @@ const TabContent: React.FC<TabContentProps> = ({
           ))}
         </ul>
         <a
-          href="https://t.me/+jUzjIJ6qoos1MDhi"
+          href={
+            hasLinkToTGBot
+              ? "https://bit.ly/nexoevabot"
+              : "https://t.me/+jUzjIJ6qoos1MDhi"
+          }
           target="_blank"
           className="tab-content__link"
         >
@@ -76,11 +88,11 @@ const TabContent: React.FC<TabContentProps> = ({
 
           {videoLink && (
             <video
-            src={videoLink}
-            controls
-            preload="none"
-            style={{ objectFit: 'cover', width: '100%', height: '100%' }}
-          />
+              src={videoLink}
+              controls
+              preload="none"
+              style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            />
           )}
         </div>
       </div>
