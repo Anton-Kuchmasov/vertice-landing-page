@@ -27,7 +27,7 @@ const activitiesTabsContent: TabContentType[] = [
     ],
     mediaContent: "first-tab.png",
     objectFit: "cover",
-    hasLinkToTGBot: true,
+    link: "https://bit.ly/nexoevabot",
   },
   {
     value: "youtube",
@@ -52,6 +52,7 @@ const activitiesTabsContent: TabContentType[] = [
     ],
     videoLink: "second-tab.mp4",
     objectFit: "cover",
+    link: 'https://www.youtube.com/@armandotraderoficial/featured'
   },
   {
     value: "formacion",
@@ -75,6 +76,7 @@ const activitiesTabsContent: TabContentType[] = [
     ],
     mediaContent: "third-tab.png",
     objectFit: "contain",
+    link: 'https://t.me/+jUzjIJ6qoos1MDhi'
   },
 ];
 

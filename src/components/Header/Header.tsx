@@ -161,7 +161,7 @@ const Header: React.FC<HeaderProps> = ({ handleMenu }: HeaderProps) => {
         </div>
         <div className="header__icons">
           <a
-            href="https://t.me/+jUzjIJ6qoos1MDhi"
+            href="https://www.youtube.com/@armandotraderoficial/featured"
             target="_blank"
             className="header__social-link"
           >

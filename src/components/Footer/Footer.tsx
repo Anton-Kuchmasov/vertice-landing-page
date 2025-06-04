@@ -23,7 +23,7 @@ const Footer = () => {
           </a>
           <a
             className="footer__icons--link"
-            href="https://t.me/+jUzjIJ6qoos1MDhi"
+            href="https://www.youtube.com/@armandotraderoficial/featured"
             target="_blank"
           >
             <YouTubeFooterIcon />

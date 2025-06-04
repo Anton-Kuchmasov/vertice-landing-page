@@ -14,7 +14,7 @@ export type TabContentType = {
   mediaContent?: string;
   videoLink?: string;
   objectFit?: "cover" | "contain";
-  hasLinkToTGBot?: boolean;
+  link: string;
 };
 
 type TabContentProps = {
@@ -33,7 +33,7 @@ const TabContent: React.FC<TabContentProps> = ({
     mediaContent,
     videoLink,
     objectFit,
-    hasLinkToTGBot,
+    link,
   } = content;
 
   return (
@@ -58,15 +58,7 @@ const TabContent: React.FC<TabContentProps> = ({
             </li>
           ))}
         </ul>
-        <a
-          href={
-            hasLinkToTGBot
-              ? "https://bit.ly/nexoevabot"
-              : "https://t.me/+jUzjIJ6qoos1MDhi"
-          }
-          target="_blank"
-          className="tab-content__link"
-        >
+        <a href={link} target="_blank" className="tab-content__link">
           Comenzar a operar
         </a>
       </div>
